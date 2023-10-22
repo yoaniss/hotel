@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+
+/* .area_visual .reserve_box */
+.area_visual .reserve_box ul {
+    bottom: 10px;
+    left: 3%;
+    width: 90%;
+}
+.area_visual .reserve_box ul li {
+    height: 39px;
+    border-bottom: 1px solid #ddd;
+}
+.area_visual .reserve_box ul li:last-child {
+    border: none;
+}
+.area_visual .reserve_box ul li.datepicker {
+    width: 50%;
+    margin-bottom: 0;
+}
+.area_visual .reserve_box ul li.select {
+    width: calc(100%/3);
+    margin-bottom: 0;
+}
+.area_visual .reserve_box ul li input {
+    font-weight: 700;
+    font-size: 13px;
+}
+.area_visual .reserve_box ul li select,
+.area_visual .reserve_box ul li input {
+    color: #333;
+    padding: 0 15px 0 19px;
+    height: 38px; line-height: 40px;
+}
+.area_visual .reserve_box ul li.reserve {
+    width: 100%;
+}
